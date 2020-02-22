@@ -46,6 +46,7 @@ module scenes
             this.addChild(this._startButton);
 
             this._startButton.on("click", ()=>{
+                console.log('Hello');
                 config.Game.SCENE = scenes.State.PLAY;
             });
 

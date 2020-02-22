@@ -38,6 +38,7 @@ var scenes;
             this.addChild(this._welcomeLabel);
             this.addChild(this._startButton);
             this._startButton.on("click", function () {
+                console.log('Hello');
                 config.Game.SCENE = scenes.State.PLAY;
             });
         };
